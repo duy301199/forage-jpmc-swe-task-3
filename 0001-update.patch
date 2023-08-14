@@ -1,0 +1,23 @@
+From a9c706a5076ec40d4eac1271f3cb60007333f344 Mon Sep 17 00:00:00 2001
+From: Duy Nguyen <duy301199@csu.fullerton.edu>
+Date: Sun, 13 Aug 2023 19:52:06 -0700
+Subject: [PATCH] update
+
+---
+ src/Graph.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/Graph.tsx b/src/Graph.tsx
+index 27f3882..de3a7e1 100644
+--- a/src/Graph.tsx
++++ b/src/Graph.tsx
+@@ -1,5 +1,5 @@
+ import React, { Component } from 'react';
+-import { Table } from '@finos/perspective';
++import { Table, TableData } from '@finos/perspective';
+ import { ServerRespond } from './DataStreamer';
+ import { DataManipulator } from './DataManipulator';
+ import './Graph.css';
+-- 
+2.39.2 (Apple Git-143)
+
